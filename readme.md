@@ -144,7 +144,7 @@ list-users <room_id>
 To enter a chat room and start participating in group conversations or direct messaging:
 
 ```sh
-enter-room <room_in>
+enter-room <room_id>
 ```
 
 #### Broadcast Message in a Room

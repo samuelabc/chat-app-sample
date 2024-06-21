@@ -2,13 +2,14 @@
 
 ## Features
 
-- **User Registration and Login**
-- **JWT-based Authentication**
-- **WebSocket-based Real-time Communication**
-- **Chat Room Management** (Create, Join, Leave)
-- **In-room Direct Messaging**
-- **Error Handling and Logging**
-- **Deployment using Docker and Docker Compose**
+- User Registration and Login
+- JWT-based Authentication
+- WebSocket-based Real-time Communication
+- Chat Room Management (Create, Join, Leave, List)
+- Group Messaging in Chat Rooms
+- In-room Direct Messaging
+- Error Handling and Logging
+- Deployment using Docker and Docker Compose
 
 ## Technologies Used
 

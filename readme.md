@@ -14,7 +14,7 @@
 
 - **Go** for the server-side application
   - Entry point: `main.go`
-- **Go** for CLI application
+- **Go** for CLI client-side application
   - Entry point: `cmd/client/client.go`
 - **SQLite** as the database for business logic relevant data
   - Database file location: `chat-app.db`
@@ -34,6 +34,7 @@
   - To avoid race conditions, a `mutex` is used to synchronize access to the `clients` map
 - **JWT** for user authentication
   - Relevant code: `internal/auth/*`
+  - JWT tokens are generated when a user logs in and are used to authorize API requests and WebSocket connections
 - **Logrus** for logging
   - Relevant code: `pkg/utils/logger.go`
   - Log file location: `log/chat-app.log`

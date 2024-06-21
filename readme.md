@@ -49,7 +49,7 @@ To start the server using Docker Compose, run:
 docker-compose up
 ```
 
-To start the by running the server directly, run:
+To start by running the server directly, run:
 
 ```sh
 go run main.go
@@ -62,6 +62,8 @@ To start the CLI client, run:
 ```sh
 go run cmd/client/client.go
 ```
+
+To start multiple clients, open multiple terminal windows and run the above command in each window.
 
 ### CLI Commands
 

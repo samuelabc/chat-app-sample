@@ -1,0 +1,15 @@
+version: '3.8'
+
+services:
+  chat-server:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "8080:8080"
+    volumes:
+      - ./chat-app.db:/app/chat-app.db
+      - ./log:/app/log
+    environment:
+      - DATABASE_URL=file:///app/chat-app.db
+    restart: unless-stopped

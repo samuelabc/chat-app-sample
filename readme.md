@@ -22,9 +22,9 @@
   - `users` table: to store user information
     - Columns: `id`, `username`, `password_hash`
   - `chat_rooms` table: to store chat room information
-		- Columns: `id`, `name`, `creator_id`
+    - Columns: `id`, `name`, `creator_id`
   - `room_users` table: to store user-room mapping
-		- Columns: `room_id`, `user_id`
+    - Columns: `room_id`, `user_id`
   - `messages` table: to store chat messages(both group and direct messages)
     - Columns: `id`, `sender_id`, `recipient_id`, `room_id`, `content`, `timestamp`
 - **Gorilla WebSocket** for WebSocket implementation
